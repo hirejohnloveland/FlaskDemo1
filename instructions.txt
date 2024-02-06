@@ -1,0 +1,29 @@
+1. Create venv
+2. Activate vevn
+3. Install Flask
+4. Install python-env
+5. Create .env file to manage environmental variables (FLASK_APP=app)
+6. Create App folder with __init__.py
+7. Add App/routes.py file
+8. Import flask and initialize app object in __init__.py
+9. Import route.py into __init__.py
+9. Add Index route in site/routes.py
+10. Test and make sure you can get a string from routes.py
+11. pip install flask-wtf
+12. Create /Config.py with secret key
+13. Add config import and config.fromObject to the app instance in __init__.py
+14. Pip install Flask-WTF
+15. Create/forms.py
+16. Create app/templates/Index.html with form
+17. Import render template in route.py, render template
+18. pip install flask-sqlalchemy
+19. pip install flask-migrate
+20. Create elephantSQL Instance and register in config.py / .env (postgresql, not postgre)
+21. Register sqlalchemy and flask migrate in __init__.py, import models
+22. Create models.py
+23. Flask db init - initialize your db migration repository
+24. Flask db migrate - Create your migration script
+24. Flask db upgrade - Run the migratoin script against the database
+25. Add db code to routes.py
+26. Test code
+27. Verify user is added to db
